@@ -1,0 +1,22 @@
+curl -X POST -H "Content-Type: application/json" -d '{"setting_type":"call_to_actions","thread_state":"existing_thread","call_to_actions":[{"type":"postback","title":"Help","payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_HELP"},{"type":"postback","title":"Latest Posts", "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_LATEST_POSTS"},{"type":"web_url","title":"View Website","url":"http://www.zen4orce.com/"}]}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAABw7TqI0qwBAOZBiBCcPHItanr7djObZBIhCs3XJZB9S6BpqvNV0HgMhZBOMC6HZBZCnOL8opg6raeN5RwsQoUC0hXwwHFV1ZB1A7uW2b7dmBwU3ZCd8yDNj46hgtaASv53CK2OR3p1RJFxOZCTADJEafqj9OYTbTZBkY2ddE82JadKoM19YJU6zN"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+                       "setting_type":"call_to_actions",
+                       "thread_state":"new_thread",
+                       "call_to_actions":[
+                                             { }
+]
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAABw7TqI0qwBAOZBiBCcPHItanr7djObZBIhCs3XJZB9S6BpqvNV0HgMhZBOMC6HZBZCnOL8opg6raeN5RwsQoUC0hXwwHFV1ZB1A7uW2b7dmBwU3ZCd8yDNj46hgtaASv53CK2OR3p1RJFxOZCTADJEafqj9OYTbTZBkY2ddE82JadKoM19YJU6zN"
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"setting_type":"call_to_actions","thread_state":"new_thread","call_to_actions":[{}]}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAABw7TqI0qwBAOZBiBCcPHItanr7djObZBIhCs3XJZB9S6BpqvNV0HgMhZBOMC6HZBZCnOL8opg6raeN5RwsQoUC0hXwwHFV1ZB1A7uW2b7dmBwU3ZCd8yDNj46hgtaASv53CK2OR3p1RJFxOZCTADJEafqj9OYTbTZBkY2ddE82JadKoM19YJU6zN"
+
+curl -X POST -H "Content-Type: application/json" -d '{"setting_type":"call_to_actions","thread_state":"new_thread","call_to_actions":[{}]}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAACsqFPeZBroBALfdQcMoW48JPqZAdCU0M9mSpaDwGxYhOhZACeGKiBYMBx0qgVAankOkSrBcIsFRfXknJQZBegRQKLWVXKLyyw0jZCmnaFjNG2cKD44aBW5gPwyuajW9nFZBD2NUy3foWbR3uxBf49OoDnZCHq337jJuGTQ3GT0AZDZD"
+
+
+
+	
+	
+	 
